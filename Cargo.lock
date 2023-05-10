@@ -137,6 +137,10 @@ dependencies = [
 [[package]]
 name = "hello-world"
 version = "0.1.0"
+dependencies = [
+ "axum",
+ "tokio",
+]
 
 [[package]]
 name = "hermit-abi"
@@ -212,9 +216,9 @@ checksum = "453ad9f582a441959e5f0d088b02ce04cfe8d51a8eaf077f12ac6d3e94164ca6"
 
 [[package]]
 name = "libc"
-version = "0.2.142"
+version = "0.2.144"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "6a987beff54b60ffa6d51982e1aa1146bc42f19bd26be28b0586f252fccf5317"
+checksum = "2b00cc1c228a6782d0f076e7b232802e0c5689d41bb5df366f2a6b6621cfdfe1"
 
 [[package]]
 name = "lock_api"
@@ -345,10 +349,6 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 [[package]]
 name = "pol-im"
 version = "0.1.0"
-dependencies = [
- "axum",
- "tokio",
-]
 
 [[package]]
 name = "proc-macro2"
